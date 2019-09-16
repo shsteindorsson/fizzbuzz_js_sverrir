@@ -1,0 +1,39 @@
+body{
+  margin: 5%;
+}
+#button{
+  width: 35%;
+  float: right;
+  height: 38px;
+}
+#display_answer{
+  text-align: center;
+  padding: 10%;
+  font-size: 200%;
+  font-weight: bold;
+  animation: reveal 3s infinite;
+}
+#display-info{
+  padding: 20px;
+}
+#display-info p{
+  font-size: 150%;
+}
+#input-div{
+  width: 60%;
+  margin-left: 3px;
+}
+#main-div{
+  width: 300px;
+  border: solid #2185d0;
+  padding: 10px;
+  border-radius: 10px;
+  height: 300px;
+}
+@keyframes reveal {
+  0% {opacity:0;width:0px;}
+  20% {opacity:1;width:0px;}
+  30% {width:355px;}
+  80% {opacity:1;}
+  100% {opacity:0;width:355px;}
+}
